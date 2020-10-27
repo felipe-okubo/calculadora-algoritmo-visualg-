@@ -13,7 +13,8 @@ q1: caractere
 
 inicio
 // criação de variável de looping.
-c<-1
+
+
 repita
 //Criação de interação ao usuário.
 escreval ("----------------------------------")
