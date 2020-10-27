@@ -1,61 +1,68 @@
-algoritmo "semnome"
-// FunÁ„o :Realiazar c·lculos com operadores + - * /
+algoritmo "Calculadora VisualG"
+// Fun√ß√£o :Realiazar c√°lculos com operadores + - * /
 // Autor :Felipe Yudi Okuba
 // Data : 13/02/2019
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
+
+
 var
 n,n1,n2: real
 c: inteiro
 q1: caractere
+
+
 inicio
-// criaÁ„o de vari·vel de looping.
+// cria√ß√£o de vari√°vel de looping.
 c<-1
 repita
-//CriaÁ„o de interaÁ„o ao usu·rio.
+//Cria√ß√£o de intera√ß√£o ao usu√°rio.
 escreval ("----------------------------------")
 escreval ("     CALCULADORA DO FELIPE        ")
 escreval ("----------------------------------")
 ESCREVAL
-escreval ("Escolha a operaÁ„o desejada.")
+escreval ("Escolha a opera√ß√£o desejada.")
 escreval
-escreval ("1 - AdiÁ„o")
-escreval ("2 - SubtraÁ„o")
-escreval ("3 - MultiplicaÁ„o")
-escreval ("4 - Divis„o")
+escreval ("1 - Adi√ß√£o")
+escreval ("2 - Subtra√ß√£o")
+escreval ("3 - Multiplica√ß√£o")
+escreval ("4 - Divis√£o")
 leia (n)
-//CondiÁ„o SE onde definir· qual operaÁ„o ser· realizada.
+
+
+//Condi√ß√£o SE onde definir√° qual opera√ß√£o ser√° realizada.
 se (n=1) entao
             escreval ("----------------------------------")
-            ESCREVAL ("             ADI«√O               ")
+            ESCREVAL ("             ADI√á√ÉO               ")
             escreval ("----------------------------------")
 fimse
 
 se (n=2) entao
             escreval ("----------------------------------")
-            ESCREVAL ("             SUBTRA«√O            ")
+            ESCREVAL ("             SUBTRA√á√ÉO            ")
             escreval ("----------------------------------")
 FIMSE
 
 se (n=3) entao
             escreval ("----------------------------------")
-            ESCREVAL ("          MULTIPLICA«√O           ")
+            ESCREVAL ("          MULTIPLICA√á√ÉO           ")
             escreval ("----------------------------------")
 FIMSE
 
 se (n=4) entao
             escreval ("----------------------------------")
-            ESCREVAL ("             DIVIS√O              ")
+            ESCREVAL ("             DIVIS√ÉO              ")
             escreval ("----------------------------------")
 FIMSE
 
-//Aqui o usu·rio dever· escolher o primeiro n˙mero e apertar ENTER;
-//Escolher o segunro n˙mero e apertar ENTER novamente.
-escreval ("Escolha dois n˙meros para calcular.")
+//Aqui o usu√°rio dever√° escolher o primeiro n√∫mero e apertar ENTER.
+//Escolher o segundo n√∫mero e apertar ENTER novamente.
+
+escreval ("Escolha dois n√∫meros para calcular.")
 leia (n1,n2)
 escreval
 escreval ("----------------------------------")
 
-//UtilizaÁ„o dos operadores matem·ticos.
+//Utiliza√ß√£o dos operadores matem√°ticos.
 se (n=1) entao
    EscrevaL (n1," +",n2, " = ",n1+n2)
    escreval ("----------------------------------")
@@ -75,7 +82,7 @@ fimse
 
 
 se (n=4) entao
-   Escreval (n1," ˜",n2, " = ",n1/n2:5:2)
+   Escreval (n1," √∑",n2, " = ",n1/n2:5:2)
    escreval ("----------------------------------")
 fimse
 escreval
@@ -83,7 +90,7 @@ escreval
 escreval
 escreval
 
-//Aqui o usu·rio poder· escolher se quer continuar a realizar outros c·lculos.
+//Aqui o usu√°rio poder√° escolher se quer continuar a realizar outros c√°lculos.
 Escreval ("Deseja continuar? [S/N]")
 LEIA (q1)
 limpatela
@@ -96,7 +103,7 @@ escreval
 escreval
 escreval ("---------------------------------------------------")
 escreval ("|                                                 |")
-Escreval ("|  VocÍ finalizou seus c·lculos !                 |")
+Escreval ("|  Voc√™ finalizou seus c√°lculos !                 |")
 escreval ("|  Obrigado por utilizar a calculadora do Felipe  |")
 escreval ("|                                                 |")
 escreval ("---------------------------------------------------")
